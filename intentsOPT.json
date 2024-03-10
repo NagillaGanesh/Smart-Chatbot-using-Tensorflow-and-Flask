@@ -1,0 +1,729 @@
+{
+    "intents": [
+            {
+                    "tag": "greeting",
+                    "patterns": [
+                            "Hi",
+                            "How are you",
+                            "Is anyone there?",
+                            "Hello",
+                            "Good day",
+                            "Whats up",
+                            "how are ya",
+                            "heyy",
+                            "whatsup"
+                    ],
+                    "responses": [
+                            "Hello!",
+                            "Good to see you again!",
+                            "Hi there, how can I help?"
+                    ],
+                    "context_set": ""
+            },
+            {
+                    "tag": "goodbye",
+                    "patterns": [
+                            "cya",
+                            "see you",
+                            "bye bye",
+                            "See you later",
+                            "Goodbye",
+                            "I am Leaving",
+                            "Bye",
+                            "Have a Good day",
+                            "talk to you later",
+                            "tyyl",
+                            "i got to go",
+                            "gtg"
+                    ],
+                    "responses": [
+                            "Sad to see you go :(",
+                            "Talk to you later",
+                            "Goodbye!",
+                            "Come back soon"
+                    ],
+                    "context_set": ""
+            },
+            {
+                    "tag": "creator",
+                    "patterns": [
+
+                            "what is the name of your developers",
+                            "what is the name of your creators",
+                            "what is the name of the developers",
+                            "what is the name of the creators",
+                            "who created you",
+                            "your developers",
+                            "your creators",
+                            "who are your developers",
+                            "developers",
+                            "you are made by",
+                            "you are made by whom",
+                            "who created you",
+                            "who create you",
+                            "creators",
+                            "who made you",
+                            "who designed you"
+                    ],
+                    "responses": [
+                            "Nagilla Ganesh developed me in Jan 2024",
+                            "I was developed by Ganesh Nagilla"
+                    ],
+                    "context_set": ""
+            },
+            {
+                    "tag": "name",
+                    "patterns": [
+                            "name",
+                            "your name",
+                            "do you have a name",
+                            "what are you called",
+                            "what is your name",
+                            "what should I call you",
+                            "whats your name?",
+                            "what are you",
+                            "who are you",
+                            "who is this",
+                            "what am i chatting to",
+                            "who am i taking to",
+                            "what are you"
+                    ],
+                    "responses": [
+                            "You can call me Pluto.",
+                            "I'm Pluto"
+                    ],
+                    "context_set": ""
+            },
+            {
+                    "tag": "number",
+                    "patterns": [
+
+                            "more info",
+                            "contact info",
+                            "how to contact college",
+                            "college telephone number",
+                            "college number",
+                            "What is your contact no",
+                            "Contact number?",
+                            "how to call you",
+                            "College phone no?",
+                            "how can i contact you",
+                            "Can i get your phone number",
+                            "how can i call you",
+                            "phone number",
+                            "phone no",
+                            "call"
+                    ],
+                    "responses": [
+                            "You can contact at +91-0194-242-2032"
+                    ],
+                    "context_set": ""
+            },
+            {
+                    "tag": "course",
+                    "patterns": [
+                            "list of courses",
+                            "list of courses offered",
+                            "list of courses offered in cbpgec",
+                            "what are the courses offered in your college?",
+                            "courses?",
+                            "courses offered",
+                            "courses offered in cbpgec",
+                            "courses you offer",
+                            "branches?",
+                            "courses available at GEC?",
+                            "branches available at GEC?",
+                            "what are the courses in GEC?",
+                            "what are branches in GEC?",
+                            "what are courses in GEC?",
+                            "branches available in GEC?",
+                            "can you tell me the courses available in GEC?",
+                            "can you tell me the branches available in GEC?",
+                            "Civil engineering?",
+                            "civil",
+                            "it",
+                            "IT"
+                    ],
+                    "responses": [
+                        "NIT Srinagar offers Computer Science and Engineering, Information Technology, Civil Engineering and Mechanical Engineering."
+                    ],
+                    "context_set": ""
+            },
+            {
+                    "tag": "fees",
+                    "patterns": [
+                            "information about fee",
+                            "information on fee",
+                            "tell me the fee",
+                            "college fee",
+                            "fee per semester",
+                            "what is the fee of each semester",
+                            "what is the fees of each year",
+                            "what is fee",
+                            "what is the fees",
+                            "how much is the fees",
+                            "fees for first year",
+                            "fees",
+                            "about the fees",
+                            "tell me something about the fees"
+                    ],
+                    "responses": [
+                            "For Fee details visit <a target=\"_blank\" href=\"https://nitsri.ac.in/Pages/DisplayPages.aspx?page=k&ItemID=eq\"> here</a>"
+                    ],
+                    "context_set": ""
+            },
+            {
+                    "tag": "location",
+                    "patterns": [
+                            "where is the college located",
+                            "college is located at",
+                            "where is college",
+                            "where is college located",
+                            "address of college",
+                            "how to reach college",
+                            "college location",
+                            "college address",
+                            "wheres the college",
+                            "how can I reach college",
+                            "whats is the college address",
+                            "what is the address of college",
+                            "address",
+                            "location"
+                    ],
+                    "responses": [
+                        "National Institute of Technology Srinagar, Hazratbal, Srinagar, Jammu and Kashmir, 190006  <a target=\"_blank\" href=\"https://maps.app.goo.gl/gXCSXcgHCbPHq6Tw6\"> here</a> "
+                    ],
+                    "context_set": ""
+            },
+            {
+                    "tag": "event",
+                    "patterns": [
+                            "events organised",
+                            "list of events",
+                            "list of events organised in college",
+                            "list of events conducted in college",
+                            "What events are conducted in college",
+                            "Are there any event held at college",
+                            "Events?",
+                            "functions",
+                            "what are the events",
+                            "tell me about events",
+                            "what about events"
+                    ],
+                    "responses": [
+                             "Techvaganza, Rang-E-Chinar and various other event conducted in the college. For more information you can visit college Website <a target=\"_blank\" href=\"https://nitsri.ac.in\"> here</a> "
+                    ],
+                    "context_set": ""
+            },
+            {
+                    "tag": "document",
+                    "patterns": [
+                            "document to bring",
+                            "documents needed for admision",
+                            "documents needed at the time of admission",
+                            "documents needed during admission",
+                            "documents required for admision",
+                            "documents required at the time of admission",
+                            "documents required during admission",
+                            "What document are required for admission",
+                            "Which document to bring for admission",
+                            "documents",
+                            "what documents do i need",
+                            "what documents do I need for admission",
+                            "documents needed"
+                    ],
+                    "responses": [
+                            "To know more about documents required visit <a target=\"_blank\" href=\"https://nitsri.ac.in/Pages/Academics.aspx\"> here</a>"
+                    ],
+                    "context_set": ""
+            },
+            {
+                    "tag": "floors",
+                    "patterns": [
+                            "size of campus",
+                            "building size",
+                            "How many floors does college have",
+                            "floors in college",
+                            "floors in college",
+                            "how tall is NIT Srinagar college building",
+                            "floors"
+                    ],
+                    "responses": [
+                            "NIT Srinagar is having a lush green campus spread over 67 acres of land on the banks of world-famous Dal Lake."
+                    ],
+                    "context_set": ""
+            },
+            {
+                "tag": "cutoff",
+                "patterns": [
+                        "cut off rank",
+                        "nit srinagar cutoff"
+                ],
+                "responses": [
+                        "As per the NIT Srinagar 2023 cutoff, the Round 1 and the Last Round closing cutoff for CSE were 20540 and 24006, respectively for the General All India category canddiates."
+                ],
+                "context_set": ""
+        },
+            {
+                    "tag": "syllabus",
+                    "patterns": [
+                            "Syllabus for CSE",
+                            "what is the Information Technology syllabus",
+                            "syllabus",
+                            "timetable",
+                            "what is CSE syllabus",
+                            "syllabus",
+                            "What is next lecture"
+                    ],
+                    "responses": [
+                            "To know about  syllabus and timetable visit <a target=\"_blank\" href=\"https://nitsri.ac.in/Pages/DisplayPages.aspx?page=cacem\"> here</a>",
+                            "To know about  syllabus and timetable visit <a target=\"_blank\" href=\"https://nitsri.ac.in/Pages/DisplayPages.aspx?page=cacem\"> here</a>"
+                    ],
+                    "context_set": ""
+            },
+            {
+                    "tag": "library",
+                    "patterns": [
+                            "is there any library",
+                            "library facility",
+                            "library facilities",
+                            "do you have library",
+                            "does the college have library facility",
+                            "college library",
+                            "where can i get books",
+                            "book facility",
+                            "Where is library",
+                            "Library",
+                            "Tell me about library",
+                            "how many libraries"
+                    ],
+                    "responses": [
+                            "The Library has a good collection of a 68248 documents that comprises of Books, Journals, Thesis, Video cassettes, Learning Resources (LRs) & Compact discs in the field of Engineering, Science, Management, Literature & Humanities.Visit <a target=\"_blank\" href=\"https://nitsri.ac.in/Department/Deptindex.aspx?page=a&ItemID=io&nDeptID=ck\"> Library site</a> for more details."
+                    ],
+                    "context_set": ""
+            },
+            {
+                    "tag": "infrastructure",
+                    "patterns": [
+                            "how is college infrastructure",
+                            "infrastructure",
+                            "college infrastructure"
+                    ],
+                    "responses": [
+                            "NIT Srinagar is a residential Institute with accommodation facility in Hostels and Staff-Quarters."
+                    ],
+                    "context_set": ""
+            },
+        {
+                    "tag": "hostel",
+                    "patterns": [
+                            "hostel facility",
+                            "hostel servive",
+                            "hostel location",
+                            "hostel address",
+                            "hostel facilities",
+                            "hostel fees",
+                            "Does college provide hostel",
+                            "Is there any hostel",
+                            "Where is hostel",
+                            "do you have hostel",
+                            "do you guys have hostel",
+                            "hostel",
+                            "hostel capacity",
+                            "what is the hostel fee",
+                            "how to get in hostel",
+                            "what is the hostel address",
+                            "how far is hostel from college",
+                            "hostel college distance",
+                            "where is the hostel",
+                            "how big is the hostel",
+                            "distance between college and hostel",
+                            "distance between hostel and college"
+                    ],
+                    "responses": [
+                            "NIT Srinagar does provide hostel facility.For more details visit..<a target=\"_blank\" href=\"https://nitsri.ac.in/Department/Deptindex.aspx?page=a&ItemID=is&nDeptID=cq\"> here</a>"
+                    ],
+                    "context_set": ""
+            },
+            {
+                    "tag": "canteen",
+                    "patterns": [
+                            "food facilities",
+                            "canteen facilities",
+                            "canteen facility",
+                            "is there any canteen",
+                            "Is there a cafetaria in college",
+                            "Does college have canteen",
+                            "Where is canteen",
+                            "where is cafetaria",
+                            "canteen",
+                            "Cafetaria"
+                    ],
+                    "responses": [
+                            "NIT Srinagar has canteen with variety of foods available."
+                    ],
+                    "context_set": ""
+            },
+            {
+                    "tag": "menu",
+                    "patterns": [
+                            "food menu",
+                            "food in canteen",
+                            "Whats there on menu",
+                            "what is available in college canteen",
+                            "what foods can we get in college canteen"
+                    ],
+                    "responses": [
+                            "We serve Bread Pakoda, Rajma, Samosa, Dal Rice and many more on menu."
+                    ],
+                    "context_set": ""
+            },
+            {
+                    "tag": "placement",
+                    "patterns": [
+                            "What is college placement",
+                            "Which companies visit in college",
+                            "What is average package",
+                            "companies visit",
+                            "package",
+                            "placement",
+                            "recruitment",
+                            "companies"
+                    ],
+                    "responses": [
+                        "To know about placement visit <a target=\"_blank\" href=\"https://nitsri.ac.in/Department/DisplayDeptPage.aspx?page=eacci&ItemID=eaccs&nDeptID=cm\">here</a>"
+                    ],
+                    "context_set": ""
+            },
+            {
+                    "tag": "csehod",
+                    "patterns": [
+                            "Who is CSE HOD",
+                            "Where is CSE HOD",
+                            "cse hod",
+                            "name of cse hod"
+                    ],
+                    "responses": [
+                            "Dr. Mohammad Ahsan Chishti is CSE HOD.Visit <a target=\"_blank\" href=\"https://nitsri.ac.in/Department/Deptindex.aspx?page=a&ItemID=cs&nDeptID=cs\"> CSE Dept. Page</a>"
+                    ],
+                    "context_set": ""
+            },
+            {
+                    "tag": "civilhod",
+                    "patterns": [
+                            "Who is Civil HOD",
+                            "Where is civil HOD",
+                            "civil hod",
+                            "name of civil hod"
+                    ],
+                    "responses": [
+                            "Prof. J.A. Bhat is Civil HOD."
+                    ],
+                    "context_set": ""
+            },
+            {
+                "tag": "opentoday",
+                "patterns": [
+                        "timings of college today",
+                        "is the college open today?",
+                        "can I visit the college today?",
+                        "when can I visit the college today?",
+                        "can I come to the college today?",
+                "what is college timing",
+                "working days",
+                "when are you guys open",
+                "what are your hours",
+                "hours of operation",
+                "when is the college open today?",
+                "college timing",
+                "what about college timing today?",
+                "is college open on saturday",
+                "tell something about college timing",
+                "what is the college  hours",
+                "when should i come to college",
+                "when should i attend college",
+                "what is my college time",
+                "college timing",
+                "timing college"
+        ],
+         "responses": ["College is open 9am-5pm Monday-Friday!", "Our hours are 9am-5pm Mon-Fri"]
+        },
+        {
+                "tag": "meetofficials",
+                "patterns": [
+                    "Can we schedule a meeting with the director?",
+                    "I would like to arrange a meeting with the CSE HOD",
+                    "Is it possible to meet with the college officials?",
+                    "I need to discuss something with the director.",
+                    "Meeting request for the CSE HOD."
+                ],
+                "responses": [
+                    "Are you looking to schedule a meeting today or later this week?"
+                ],
+                "context_set": "meet"
+            },
+            {
+                "tag": "today",
+                "patterns": [
+                    "today"
+                ],
+                "responses": [
+                    "To schedule a meeting with college officials, please visit the college between 10am and 1pm, Monday to Friday.",
+                    "You can meet with the officials between 10am and 1pm, Monday to Friday."
+                ],
+                "context_filter": "meet"
+            },
+            {
+                    "tag": "mechhod",
+                    "patterns": [
+                            "Who is Mechanical HOD",
+                            "Where is  mechanical HOD",
+                            "mechanical hod",
+                            "name of mechanical hod"
+                    ],
+                    "responses": [
+                        "Prof. Adnan Qayoum is Mechanical HOD."
+                    ],
+                    "context_set": ""
+            },
+            {
+                    "tag": "director",
+                    "patterns": [
+                            "what is the name of director",
+                            "whatv is the director name",
+                            "director name",
+                            "Who is college director",
+                            "Where is director's office",
+                            "director",
+                            "name of director"
+                    ],
+                    "responses": [
+                            "Prof. A. Ravinder Nath is the current director of NIT Srinagar"
+                    ],
+                    "context_set": ""
+            },
+            {
+                    "tag": "sem",
+                    "patterns": [
+                            "exam dates",
+                            "exam schedule",
+                            "When is semester exam",
+                            "Semester exam timetable",
+                            "sem",
+                            "semester",
+                            "exam",
+                            "when is exam",
+                            "exam timetable",
+                            "exam dates",
+                            "when is semester"
+                    ],
+                    "responses": [
+                            "Here is the Academic Calendar  <a target=\"_blank\" href=\"https://nitsri.ac.in/uploaded_files/ACADEMIC_CALENDER_2023-2024_(14JUL_1435).pdf\">Calendar</a>"
+                    ],
+                    "context_set": ""
+            },
+            {
+                    "tag": "admission",
+                    "patterns": [
+                            "what is the process of admission",
+                            "what is the admission process",
+                            "How to take admission in your college",
+                            "What is the process for admission",
+                            "admission",
+                            "admission process"
+                    ],
+                    "responses": [
+                            "Visit <a target=\"_blank\" href=\"https://nitsri.ac.in/Pages/DisplayPages.aspx?page=cacqc\">Admission2023 Helpline</a>"
+                    ],
+                    "context_set": ""
+            },
+            {
+                    "tag": "facilities",
+                    "patterns": [
+                            "What facilities college provide",
+                            "College facility",
+                            "What are college facilities",
+                            "facilities",
+                            "facilities provided"
+                    ],
+                    "responses": [
+                            "NIT Srinagar provides Smart classrooms, Auditorium, Library, Canteen and many more.."
+                    ],
+                    "context_set": ""
+            },
+            {
+                    "tag": "uniform",
+                    "patterns": [
+                            "college dress code",
+                            "college dresscode",
+                            "what is the uniform",
+                            "can we wear casuals",
+                            "Does college have an uniform",
+                            "Is there any uniform",
+                            "uniform",
+                            "what about uniform",
+                            "do we have to wear uniform"
+                    ],
+                    "responses": [
+                            "NIT Srinagar does not have any uniform/dress code"
+                    ],
+                    "context_set": ""
+            },
+            {
+                "tag": "fallback",
+                "patterns": [
+                    "dshjsdhsdoi",
+                    "sduihiudwi",
+                    "ciuhdsd",
+                    "huiewuidd",
+                    "random words",
+                    "nonsense input",
+                    "hfdskjsejwhewi",
+                    "ndskndsk",
+                    "iwehrqwiojwq",
+                    "dnjkdsnods",
+                    "whdiqojdqop"
+                ],
+                "responses": [
+                    "I'm sorry, I didn't understand that. Can you please rephrase or ask another question?"
+                ]
+            },
+            {
+                    "tag": "vacation",
+                    "patterns": [
+                            "holidays",
+                            "when will semester starts",
+                            "when will semester end",
+                            "when is the holidays",
+                            "list of holidays",
+                            "about vacations",
+                            "about holidays",
+                            "When is vacation",
+                            "When is holidays",
+                            "how long will be the vacation"
+                    ],
+                    "responses": [
+                            "Please refer academic calendar <a target=\"_blank\" href=\"https://nitsri.ac.in/Pages/DisplayPages.aspx?page=caaso&ItemID=eq\">here</a>"
+                    ],
+                    "context_set": ""
+            },
+
+            {
+                    "tag": "salutation",
+                    "patterns": [
+                            "okk",
+                            "okie",
+                            "nice work",
+                            "well done",
+                            "good job",
+                            "thanks for the help",
+                            "Thank You",
+                            "its ok",
+                            "Thanks",
+                            "k",
+                            "ok",
+                            "okay"
+                    ],
+                    "responses": [
+                            "I am glad I helped you",
+                            "Welcome, anything else I can assist you with?"
+                    ],
+                    "context_set": ""
+            },
+            {
+                    "tag": "task",
+                    "patterns": [
+                            "what can you do",
+                            "what are the thing you can do",
+                            "things you can do",
+                            "what can u do for me",
+                            "how u can help me",
+                            "why i should use you"
+                    ],
+                    "responses": [
+                            "I can answer to low-intermediate questions regarding college",
+                            "You can ask me questions regarding college, and I will try to answer them"
+                    ],
+                    "context_set": ""
+            },
+            {
+                    "tag":"ragging",
+                    "patterns":[
+                            "ragging",
+                            "is ragging practice active in college",
+                            "does college have any antiragging facility",
+                            "is there any ragging cases",
+                            "is ragging done here",
+                            "ragging juniors",
+                            "ragging history",
+                            "ragging incidents"
+                            
+                    ],
+                    "responses": [
+                            "We are Proud to tell you that our college provides ragging free environment, and we have strict rules against ragging."
+                    ]
+
+            },
+            {
+                    "tag":"hod",
+                    "patterns":[
+                            "hod",
+                            "hod name",
+                            "who is the hod"
+                    ],
+                    "responses":[
+                            "HODs differ for each branch, please be more specific like: (CSE HOD)"
+                    ]
+            },
+            {
+                    "tag":"transport",
+                    "patterns":[
+                            "distance from nearest airport",
+                            "distance from nearest railway station"
+                            
+                    ],
+                    "responses":[
+                            "The campus is about 22 KMs away from the Srinagar International Airport. It falls on National Highway to Ladakh. The nearest railway station is Nowgam which is located about 18 km from the Institute campus."
+                    ]
+            },
+            {
+                    "tag": "metro",
+                    "patterns":[
+                            "nearest metro station",
+                            "what is the nearest metro station",
+                            "which metro station is near",
+                            "closest metro station",
+                            "which metro station is closest",
+                            "nearby metro stations",
+                            "metro",
+                            "metro station nearby"
+                    ],
+                    "responses":[
+                            "No metro stations near NIT Srinagar."
+                    ]
+            },
+            {
+                "tag": "None of these",
+                "patterns": [
+                    "That's not the answer for my question",
+                    "I didn't get my answer",
+                    "Not what I'm looking for",
+                    "None of the above",
+                    "Not helpful",
+                    "Doesn't answer my question",
+                    "I need something else",
+                    "Can you help with something different?",
+                    "This doesn't help",
+                    "I'm looking for something else"
+                ],
+                "responses": [
+                    "Apologies, could you please rephrase your question or provide more context?",
+                    "Sorry for the inconvenience. Please visit our <a target=\"_blank\" href=\"https://nitsri.ac.in\">college website</a> for more details.",
+                    "Sorry, it seems I couldn't provide the information you need. Could you try asking in a different way?"
+                ],
+                "context_set": ""
+            }
+            
+            
+    ]
+}

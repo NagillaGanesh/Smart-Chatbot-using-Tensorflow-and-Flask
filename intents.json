@@ -1,0 +1,74 @@
+{
+    "intents": [
+        {
+            "tag": "Contact",
+            "patterns": [
+
+                    "more info",
+                    "contact info",
+                    "how to contact college",
+                    "college telephone number",
+                    "college number",
+                    "What is your contact no",
+                    "Contact number?",
+                    "how to call you",
+                    "College phone no?",
+                    "how can i contact you",
+                    "Can i get your phone number",
+                    "how can i call you",
+                    "phone number",
+                    "phone no",
+                    "call"
+            ],
+            "responses": [
+                    "You can contact at +91-0194-242-2032"
+            ],
+            "context_set": ""
+    },
+    {
+        "tag": "Syllabus",
+        "patterns": [
+                "Syllabus for IT",
+                "what is the Information Technology syllabus",
+                "syllabus",
+                "timetable",
+                "what is IT syllabus",
+                "syllabus",
+                "What is next lecture"
+        ],
+        "responses": [
+                "To know about  syllabus and timetable visit <a target=\"_blank\" href=\"https://nitsri.ac.in/Pages/DisplayPages.aspx?page=cacem\"> here</a>",
+                "To know about  syllabus and timetable visit <a target=\"_blank\" href=\"https://nitsri.ac.in/Pages/DisplayPages.aspx?page=cacem\"> here</a>"
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "Cutoff",
+        "patterns": [
+                "cut off rank",
+                "nit srinagar cutoff"
+        ],
+        "responses": [
+                "As per the NIT Srinagar 2023 cutoff, the Round 1 and the Last Round closing cutoff for CSE were 20540 and 24006, respectively for the General All India category canddiates."
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "Placements",
+        "patterns": [
+                "What is college placement",
+                "Which companies visit in college",
+                "What is average package",
+                "companies visit",
+                "package",
+                "placement",
+                "recruitment",
+                "companies"
+        ],
+        "responses": [
+                "To know about placement visit <a target=\"_blank\" href=\"https://nitsri.ac.in/Department/DisplayDeptPage.aspx?page=eacci&ItemID=eaccs&nDeptID=cm\">here</a>"
+        ],
+        "context_set": ""
+    }
+]
+}
