@@ -44,14 +44,3 @@ This repository contains code for a simple chatbot implemented using Flask and T
 - `model.tflearn`: Trained model saved using TFlearn.
 - `training_data`: Pickled file containing training data.
 
-## Contributing
-
-Contributions are welcome! Feel free to submit bug reports, feature requests, or pull requests to help improve this project.
-
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
----
-
-Feel free to customize the content as per your project's specific requirements and guidelines.
