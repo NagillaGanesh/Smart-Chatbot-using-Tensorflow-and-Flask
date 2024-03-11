@@ -1,4 +1,4 @@
-# Smart-Chatbot-using-Tensorflow-and-Flask
+# Chatbot-using-Tensorflow-and-Flask
 
 This repository contains code for a simple chatbot implemented using Flask and TFlearn. The chatbot is trained on intents specified in a JSON file and can respond to user queries based on the trained model.
 
