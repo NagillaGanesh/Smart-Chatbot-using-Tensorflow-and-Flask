@@ -150,29 +150,6 @@
                     "context_set": ""
             },
             {
-                    "tag": "fees",
-                    "patterns": [
-                            "information about fee",
-                            "information on fee",
-                            "tell me the fee",
-                            "college fee",
-                            "fee per semester",
-                            "what is the fee of each semester",
-                            "what is the fees of each year",
-                            "what is fee",
-                            "what is the fees",
-                            "how much is the fees",
-                            "fees for first year",
-                            "fees",
-                            "about the fees",
-                            "tell me something about the fees"
-                    ],
-                    "responses": [
-                            "For Fee details visit <a target=\"_blank\" href=\"https://nitsri.ac.in/Pages/DisplayPages.aspx?page=k&ItemID=eq\"> here</a>"
-                    ],
-                    "context_set": ""
-            },
-            {
                     "tag": "location",
                     "patterns": [
                             "where is the college located",
@@ -722,8 +699,42 @@
                     "Sorry, it seems I couldn't provide the information you need. Could you try asking in a different way?"
                 ],
                 "context_set": ""
-            }
-            
-            
+            },
+            {
+                "tag": "cse_interest",
+                "patterns": [
+                "I want to join CSE",
+                "I'm interested in computer science",
+                "CSE admission?",
+                "computer science admission"
+                ],
+                "responses": [
+                "CSE is one of our most popular branches. Would you like to know about fees or eligibility?"
+                ],
+                "context_set": "cse_inquiry"
+                },
+                {
+                "tag": "fees_cse",
+                "patterns": [
+                "what is the fee?",
+                "tell me the fee",
+                "fees please"
+                ],
+                "responses": [
+                "The tuition fee for CSE is ₹1,25,000 per year, excluding hostel and mess charges."
+                ],
+                "context_filter": "cse_inquiry"
+                },
+                {
+                "tag": "fees_general",
+                "patterns": [
+                "what is the fee?",
+                "tell me the fee",
+                "fees please"
+                ],
+                "responses": [
+                "You can check the general fee structure here: <a target=\"_blank\" href=\"https://nitsri.ac.in/Pages/DisplayPages.aspx?page=k&ItemID=eq\">Click for Fee Info</a>"
+                ]
+        }
     ]
 }

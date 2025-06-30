@@ -1,0 +1,2 @@
+model_checkpoint_path: "C:\\Users\\LENOVO\\Smart-Chatbot-using-Tensorflow-and-Flask\\Smart-Chatbot-using-Tensorflow-and-Flask\\model.tflearn"
+all_model_checkpoint_paths: "C:\\Users\\LENOVO\\Smart-Chatbot-using-Tensorflow-and-Flask\\Smart-Chatbot-using-Tensorflow-and-Flask\\model.tflearn"
