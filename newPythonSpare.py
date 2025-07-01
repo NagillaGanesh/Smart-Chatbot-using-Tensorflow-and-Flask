@@ -146,5 +146,5 @@ def get_response(sentence, userID='123', show_details=False):
 #         print("Bot:", response)
 
 
-# This file is for loading trianed models
+# This file is for loading trained models
 # newPython.py file is used if the model is not even trained for once
